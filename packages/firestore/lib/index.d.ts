@@ -1880,7 +1880,7 @@ export namespace FirebaseFirestoreTypes {
   /**
    * A write batch, used to perform multiple writes as a single atomic unit.
    *
-   * A WriteBatch object can be acquired by calling `firestore.batch()`. It provides methods for adding
+   * A WriteBatch object can be acquired by calling `firestore().batch()`. It provides methods for adding
    * writes to the write batch. None of the writes will be committed (or visible locally) until
    * `WriteBatch.commit()` is called.
    *
